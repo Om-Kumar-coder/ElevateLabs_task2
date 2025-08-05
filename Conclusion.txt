@@ -1,0 +1,102 @@
+Step-by-Step Analysis
+
+1. Obtain a sample phishing email
+✅ We created the above fake example for training purposes.
+
+
+---
+
+2. Examine sender's email address for spoofing
+
+Legit PayPal emails come from something like:
+service@paypal.com or support@paypal.com
+
+This one comes from:
+support@secure-paypal-alert.com → suspicious look-alike domain.
+
+
+
+---
+
+3. Check email headers for discrepancies
+
+Using an email header analyzer would reveal:
+
+Originating IP not related to PayPal servers.
+
+SPF/DKIM authentication failures.
+
+“Reply-To” address different from “From” address.
+
+
+
+
+---
+
+4. Identify suspicious links or attachments
+
+Link text: https://paypal.com.verify-secure-login-update-account.com
+
+Real domain: verify-secure-login-update-account.com
+
+Not PayPal.
+
+
+No attachments in this example, but many phishing mails use .zip or .docm files.
+
+
+
+---
+
+5. Look for urgent or threatening language
+
+Phrases like:
+
+“Urgent”
+
+“Verify within 12 hours”
+
+“Permanent suspension”
+These are psychological pressure tactics.
+
+
+
+
+---
+
+6. Note any mismatched URLs (hover to see real link)
+
+Link appears to say PayPal, but hover shows a different domain.
+
+Legit companies rarely use redirecting or multi-part domains like this.
+
+
+
+---
+
+7. Verify presence of spelling or grammar errors
+
+This one has no big spelling mistakes but slightly awkward phrasing:
+
+“Please verify your account within 12 hours” sounds robotic.
+
+Official emails usually use your real name.
+
+
+
+
+---
+
+8. Summarize phishing traits found
+
+Look-alike domain in sender’s address.
+
+Suspicious URL that isn’t PayPal.
+
+Urgency & threat to scare the user.
+
+Generic greeting (“Dear Customer”).
+
+Header discrepancies if checked.
+
+Possible malicious links.
