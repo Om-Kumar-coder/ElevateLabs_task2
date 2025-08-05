@@ -1,0 +1,16 @@
+From: PayPal Security <support@secure-paypal-alert.com>
+To: you@example.com
+Subject: Urgent: Account Temporarily Suspended
+
+Dear Customer,
+
+We have detected unusual login activity on your PayPal account.  
+To protect your account, we have temporarily suspended access.  
+
+Please verify your account within 12 hours to avoid permanent suspension:  
+https://paypal.com.verify-secure-login-update-account.com
+
+Failure to verify will result in closure of your account.  
+
+Thank you,  
+PayPal Security Team
